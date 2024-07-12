@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: space
+  datasource:
+    url: #{db_url}
+    username: #{db_username}
+    password: #{db_password}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource

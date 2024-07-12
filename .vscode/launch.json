@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SpaceApplication",
+            "request": "launch",
+            "mainClass": "com.vie.space.SpaceApplication",
+            "projectName": "demo"
+        }
+    ]
+}
